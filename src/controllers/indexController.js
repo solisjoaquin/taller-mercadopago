@@ -30,7 +30,7 @@ module.exports = {
     }
     ,
     notification: (req, res) => {
-        console.log(req.body)
+        console.log('webhook', req.body)
 
         res.status(200).end('ok')
     }
