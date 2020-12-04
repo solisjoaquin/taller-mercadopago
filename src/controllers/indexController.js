@@ -54,7 +54,7 @@ module.exports = {
                 failure: url + "failure"
             },
 
-            notification_url: url + "notifications",
+            notification_url: host + "notifications",
 
             auto_return: "approved"
             ,
