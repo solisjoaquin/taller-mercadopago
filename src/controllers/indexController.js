@@ -59,17 +59,17 @@ module.exports = {
             ,
 
             payer: {
-                name: 'Ryan',
-                surname: 'Dahl',
+                name: 'Lalo',
+                surname: 'Landa',
                 email: 'test_user_63274575@testuser.com',
                 phone: {
                     area_code: '11',
-                    number: 55556666
+                    number: 22223333
                 },
                 address: {
-                    zip_code: '1234',
-                    street_name: 'Monroe',
-                    street_number: 860,
+                    zip_code: '1111',
+                    street_name: 'False',
+                    street_number: 123,
                 }
             },
 
@@ -78,21 +78,21 @@ module.exports = {
                     { id: 'atm' }
                 ],
                 excluded_payment_methods: [{
-                    id: 'visa'
+                    id: 'amex'
                 }],
-                installments: 12
+                installments: 6
             },
             items: [
                 {
                     id: 1234,
-                    picture_url: '',
-                    title: 'Nombre del producto',
+                    picture_url: 'https://github.com/solisjoaquin/taller-mercadopago/blob/main/public/images/products/jordan.jpg',
+                    title: 'Nombre del producto seleccionado del carrito del ejercicio',
                     description: 'Dispositivo móvil de Tienda e-commerce',
-                    unit_price: 999,
+                    unit_price: 200,
                     quantity: 1
                 }
             ],
-            external_references: ''
+            external_reference: 'joaquin_15_93@hotmail.com'
         }
 
         mercadopago.preferences.create(preference).then(response => {

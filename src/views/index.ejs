@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Include Head -->
-<%- include('partials/head', { title: 'Inicio' }) %>
+<%- include('partials/head', { title: 'home' }) %>
 
 <body>
   <!-- Header -->
@@ -43,24 +43,24 @@
 
       <div class="col-12 col-sm-6 col-lg-3">
         <section class="product-box">
-            <figure class="product-box_image">
-              <img src="/images/products/disruptor.jpg" alt="Fila Disruptor">
-            </figure>
-            
-            <article class="product-box_data">
-              <h2>$9000</h2>
-              <p>Fila Disruptor</p>
-              <i class="fas fa-truck"></i>
-            </article>
-            <div class="button-buy-container">
-              <form action="/detail" method="GET">
-                <input type="hidden" name="img" value="disruptor.jpg">
-                <input type="hidden" name="title" value="Fila Disruptor">
-                <input type="hidden" name="price" value="9000">
-                <input type="hidden" name="unit" value="1">
-                <button type="submit" class="mercadopago-button">Ir al producto</button>
-              </form>
-            </div>
+          <figure class="product-box_image">
+            <img src="/images/products/disruptor.jpg" alt="Fila Disruptor">
+          </figure>
+
+          <article class="product-box_data">
+            <h2>$9000</h2>
+            <p>Fila Disruptor</p>
+            <i class="fas fa-truck"></i>
+          </article>
+          <div class="button-buy-container">
+            <form action="/detail" method="GET">
+              <input type="hidden" name="img" value="disruptor.jpg">
+              <input type="hidden" name="title" value="Fila Disruptor">
+              <input type="hidden" name="price" value="9000">
+              <input type="hidden" name="unit" value="1">
+              <button type="submit" class="mercadopago-button">Ir al producto</button>
+            </form>
+          </div>
         </section>
       </div>
 
