@@ -56,7 +56,7 @@ module.exports = {
 
             notification_url: url + "notifications",
 
-            auto_url: 'approved'
+            auto_return: "approved"
             ,
 
             payer: {
@@ -93,6 +93,9 @@ module.exports = {
                     quantity: 1
                 }
             ],
+
+
+
             external_reference: 'joaquin_15_93@hotmail.com'
         }
 
