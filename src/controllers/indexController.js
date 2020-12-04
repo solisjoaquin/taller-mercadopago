@@ -53,7 +53,7 @@ module.exports = {
                 pending: url + "pending",
                 failure: url + "failure"
             },
-            notification_url: url + 'notification',
+            notification_url: url + 'notifications',
 
             auto_url: 'approved'
             ,
