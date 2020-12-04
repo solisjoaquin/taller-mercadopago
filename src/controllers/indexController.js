@@ -36,7 +36,7 @@ module.exports = {
     }
     ,
     notification: (req, res) => {
-        console.log('webhook', req.body)
+        console.log('webhook: ', req.body)
 
 
         res.status(200).end('ok')
@@ -53,6 +53,7 @@ module.exports = {
                 pending: url + "pending",
                 failure: url + "failure"
             },
+
             notification_url: url + "notifications",
 
             auto_url: 'approved'
